@@ -1,18 +1,48 @@
-## Getting Started
+# 📖 **Lista de Exercícios 1 POO**  
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📌 **Descrição**  
+Este projeto em **Java 17** contém soluções para uma **lista de exercícios de estrutura sequencial**. Ele está organizado em classes separadas, uma delas a App, contendo a função main e a outra Calculadora contendo as funções de calculo para as questões. 
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 🗂 **Estrutura do Projeto**  
+```
+U-Class1/
+│── src/com/exercicios/
+│   ├── main/App.java       # Classe principal
+│   ├── utils/Calculadora.java  # Métodos utilitários para os exercícios
+│── bin/                    # Arquivos compilados
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 **Como Clonar e Rodar o Projeto**  
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### **1. Clonar o Repositório**  
+```sh
+git clone -b Lista-1 https://github.com/jluca-s/JavaClasses.git
+```
 
-## Dependency Management
+### **2. Compilar o Código**  
+```sh
+javac -d bin src/com/exercicios/main/App.java src/com/exercicios/utils/Calculadora.java
+```
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### **3. Executar o Programa**  
+```sh
+java -cp bin com.exercicios.main.App
+```
+
+O programa executará os exercícios automaticamente.
+
+---
+
+## 🎯 **Requisitos**  
+- **Java 17+**
+
+Verifique a versão do Java:  
+```sh
+java -version
+```
+
+---
