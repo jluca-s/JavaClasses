@@ -1,4 +1,3 @@
-Aqui está o **README.md** atualizado para refletir corretamente a estrutura e funcionalidades do projeto:  
 
 ---
 
