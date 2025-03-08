@@ -33,7 +33,6 @@ jluca-s-javaclasses/
 ### **1. Clonar o Repositório**  
 ```sh
 git clone -b Lista-1 https://github.com/jluca-s/JavaClasses.git
-cd JavaClasses
 ```
 
 ### **2. Compilar o Código**  
